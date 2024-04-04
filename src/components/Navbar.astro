@@ -1,0 +1,82 @@
+---
+import i18next, { t } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
+import LogoIconGobold from "../icons/LogoIconGobold.astro";
+import LogoIconGreat from "../icons/LogoIconGreat.astro";
+
+const languages = ["en", "es", "fr"];
+---
+
+<nav
+    class="w-full flex items-center justify-between font-manrope font-light gap-3"
+>
+    <LogoIconGobold />
+
+    <li
+        class="list-none flex flex-wrap justify-center gap-y-1 gap-x-8 text-green font-light"
+    >
+        <ul>
+            <a href="#experience" class="link-animation"
+                >{t("navbar.experience")}</a
+            >
+        </ul>
+        <ul>
+            <a href="#projects" class="link-animation">{t("navbar.projects")}</a
+            >
+        </ul>
+        <ul>
+            <a href="#skills" class="link-animation">{t("navbar.skills")}</a>
+        </ul>
+    </li>
+
+    <button
+        id="dropdownLanguageButton"
+        data-dropdown-toggle="dropdownLanguage"
+        data-dropdown-trigger="hover"
+        class="text-black font-medium rounded-lg text-lg xl:px-5 px-2 py-2.5 text-center inline-flex items-center uppercase"
+        type="button"
+        >{i18next.language}
+    </button>
+
+    <div id="dropdownLanguage" class="z-10 hidden">
+        <ul
+            class="py-0 -mt-3 text-lg text-black"
+            aria-labelledby="dropdownLanguageButton"
+        >
+            {
+                languages.map((lang) => {
+                    let route = "";
+                    if (lang == "en") {
+                        route = "/";
+                    } else {
+                        route = `/${lang}`;
+                    }
+                    if (lang != i18next.language) {
+                        return (
+                            <>
+                                <li>
+                                    <a
+                                        href={`${route}`}
+                                        class="block px-4 py-2 hover:text-gray-800 uppercase"
+                                    >
+                                        {lang}
+                                    </a>
+                                </li>
+                            </>
+                        );
+                    }
+                })
+            }
+        </ul>
+    </div>
+</nav>
+
+<style>
+    .link-animation {
+        @apply relative text-sm md:text-base lg:text-xl w-fit block after:block after:content-[''] after:absolute after:h-[1px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center;
+    }
+</style>
+
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"
+></script>

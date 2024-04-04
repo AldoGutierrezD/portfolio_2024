@@ -1,0 +1,23 @@
+---
+const { title, subtitle } = Astro.props;
+---
+
+<div class="text-black flex flex-col gap-1 justify-center items-center">
+    <slot name="icon" />
+
+    <div class="relative flex py-5 items-center w-full">
+        <div class="flex-grow border-t border-black"></div>
+        <span
+            class="flex-shrink mx-4 text-black font-great-warrior text-xl md:text-2xl xl:text-3xl tracking-[0.4em]"
+            >{title}</span
+        >
+        <div class="flex-grow border-t border-black"></div>
+    </div>
+
+    <hr class="w-full border-1 border-black" />
+    <h4
+        class="font-manrope font-medium tracking-[1em] text-sm md:text-base xl:text-xl text-center"
+    >
+        {subtitle}
+    </h4>
+</div>

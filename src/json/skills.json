@@ -1,0 +1,155 @@
+{
+    "es": [
+        {
+            "title": "🎨 Frontend",
+            "skills": [
+                "HTML5",
+                "CSS3",
+                "Tailwind",
+                "Bootstrap",
+                "JavaScript",
+                "Vue",
+                "Angular",
+                "jQuery",
+                "AJAX"
+            ]
+        },
+        {
+            "title": "🔙 Backend",
+            "skills": [
+                "PHP",
+                "MySql"
+            ]
+        },
+        {
+            "title": "👨‍🎨 Prototipado",
+            "skills": [
+                "Figma"
+            ]
+        },
+        {
+            "title": "💻 Versionado",
+            "skills": [
+                "Git",
+                "GitHub"
+            ]
+        },
+        {
+            "title": "🧠 Conocimientos Relevantes",
+            "skills": [
+                "Diseño UI",
+                "Diseño Responsivo",
+                "Integración de API"
+            ]
+        },
+        {
+            "title": "🌎 Idiomas",
+            "skills": [
+                "Inglés",
+                "Francés"
+            ]
+        }
+    ],
+    "en": [
+        {
+            "title": "🎨 Frontend",
+            "skills": [
+                "HTML5",
+                "CSS3",
+                "Tailwind",
+                "Bootstrap",
+                "JavaScript",
+                "Vue",
+                "Angular",
+                "jQuery",
+                "AJAX"
+            ]
+        },
+        {
+            "title": "🔙 Backend",
+            "skills": [
+                "PHP",
+                "MySql"
+            ]
+        },
+        {
+            "title": "👨‍🎨 Prototyping",
+            "skills": [
+                "Figma"
+            ]
+        },
+        {
+            "title": "💻 Versioned",
+            "skills": [
+                "Git",
+                "GitHub"
+            ]
+        },
+        {
+            "title": "🧠 Relevant Knowledge",
+            "skills": [
+                "UI Design",
+                "Responsive Design",
+                "API Integration"
+            ]
+        },
+        {
+            "title": "🌎 Languages",
+            "skills": [
+                "English",
+                "French"
+            ]
+        }
+    ],
+    "fr": [
+        {
+            "title": "🎨 Front-end",
+            "skills": [
+                "HTML5",
+                "CSS3",
+                "Tailwind",
+                "Bootstrap",
+                "JavaScript",
+                "Vue",
+                "Angular",
+                "jQuery",
+                "AJAX"
+            ]
+        },
+        {
+            "title": "🔙 Back-end",
+            "skills": [
+                "PHP",
+                "MySql"
+            ]
+        },
+        {
+            "title": "👨‍🎨 Prototypage",
+            "skills": [
+                "Figma"
+            ]
+        },
+        {
+            "title": "💻 Versionné",
+            "skills": [
+                "Git",
+                "GitHub"
+            ]
+        },
+        {
+            "title": "🧠 Connaissances Importants",
+            "skills": [
+                "Design UI",
+                "Desing Responsive",
+                "Intégration d'API"
+            ]
+        },
+        {
+            "title": "🌎 Langues",
+            "skills": [
+                "Angalis",
+                "Français"
+            ]
+        }
+    ]
+}

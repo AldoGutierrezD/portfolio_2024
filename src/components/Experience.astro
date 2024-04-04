@@ -1,0 +1,47 @@
+---
+import i18next, { t } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
+import ExperienceIcon from "../icons/ExperienceIcon.astro";
+import ArrowIcon from "../icons/ArrowIcon.astro";
+import CardExperience from "./CardExperience.astro";
+import SectionTitle from "./SectionTitle.astro";
+import { type Experience } from "../interfaces";
+import ExperienceData from "../json/experience.json";
+
+const language = i18next.language;
+const jobs: Experience[] = (ExperienceData as { [key: string]: Experience[] })[
+    language
+];
+---
+
+<section id="experience" class="w-full mt-48">
+    <SectionTitle
+        title={t("experience.title")}
+        subtitle={t("experience.subtitle")}
+    >
+        <ExperienceIcon slot="icon" />
+    </SectionTitle>
+
+    <div
+        class="w-full mt-16 flex flex-col md:flex-row justify-center items-center gap-7 h-auto"
+    >
+        {
+            jobs.map((job, i) => (
+                <>
+                    <CardExperience
+                        icon={job.icon}
+                        title={job.title}
+                        subtitle={job.subtitle}
+                        date={job.date}
+                        active={job.active}
+                    />
+                    {i < jobs.length - 1 ? (
+                        <ArrowIcon clase="arrow-icon" />
+                    ) : (
+                        ""
+                    )}
+                </>
+            ))
+        }
+    </div>
+</section>

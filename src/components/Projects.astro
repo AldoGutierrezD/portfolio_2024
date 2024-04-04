@@ -1,0 +1,37 @@
+---
+import i18next, { t } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
+import SectionTitle from "./SectionTitle.astro";
+import ProjectsIcon from "../icons/ProjectsIcon.astro";
+import CardProject from "./CardProject.astro";
+import { type Project } from "../interfaces";
+import ProjectsData from "../json/projects.json";
+
+const language = i18next.language;
+const projects: Project[] = (ProjectsData as { [key: string]: Project[] })[
+    language
+];
+---
+
+<section id="projects" class="w-full mt-24">
+    <SectionTitle title={t("projects.title")} subtitle={t("projects.subtitle")}>
+        <ProjectsIcon slot="icon" />
+    </SectionTitle>
+
+    <div class="w-full mt-16 grid grid-cols-1 gap-4 xl:grid-cols-2">
+        {
+            projects.map((project, i) => (
+                <>
+                    <CardProject
+                        id={project.id}
+                        image={project.image}
+                        title={project.title}
+                        subtitle={project.subtitle}
+                        url={project.url}
+                        skills={project.skills}
+                    />
+                </>
+            ))
+        }
+    </div>
+</section>

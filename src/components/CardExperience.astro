@@ -1,0 +1,29 @@
+---
+const { icon, title, subtitle, date, active } = Astro.props;
+---
+
+<article
+    class={`w-full md:w-80 border-2 text-black flex flex-col rounded-2xl h-full ${active ? "border-gold" : "border-black"}`}
+>
+    <div class="p-4">
+        <span class="text-4xl">{icon}</span>
+        <h4 class="font-manrope font-bold text-xl mt-6 mb-2">
+            {title}
+        </h4>
+        <h6
+            class="text-manrope font-light leading-6 text-sm md:text-base xl:text-xl"
+        >
+            {subtitle}
+        </h6>
+    </div>
+    <div class={`p-4 border-t-2 ${active ? "border-gold" : "border-black"}`}>
+        <h6
+            class="text-manrope font-light leading-6 text-sm md:text-base xl:text-xl"
+        >
+            <span
+                class="font-manrope text-sm md:text-base xl:text-xl font-light"
+                >{date}</span
+            >
+        </h6>
+    </div>
+</article>

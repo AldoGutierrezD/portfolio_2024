@@ -1,0 +1,56 @@
+---
+import { changeLanguage } from "i18next";
+import Layout from "../layouts/Layout.astro";
+import Navbar from "../components/Navbar.astro";
+import Header from "../components/Header.astro";
+import Experience from "../components/Experience.astro";
+import Projects from "../components/Projects.astro";
+import Skills from "../components/Skills.astro";
+import Footer from "../components/Footer.astro";
+
+changeLanguage("en");
+---
+
+<Layout title="Aldo Gutiérrez | Web Developer">
+	<main>
+		<Navbar />
+		<Header />
+		<Experience />
+		<Projects />
+		<Skills />
+		<Footer />
+	</main>
+</Layout>
+
+<style>
+	main {
+		margin: auto;
+		padding: 1rem;
+		width: 60%;
+		max-width: calc(100% - 2rem);
+		color: white;
+		font-size: 20px;
+		line-height: 1.6;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		flex-direction: column;
+	}
+	h1 {
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 1;
+		text-align: center;
+		margin-bottom: 1em;
+	}
+	@media (width <= 480px) {
+		main {
+			width: 100%;
+		}
+	}
+	@media (480px < width <= 768px) {
+		main {
+			width: 80%;
+		}
+	}
+</style>

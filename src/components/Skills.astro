@@ -1,0 +1,36 @@
+---
+import i18next, { t } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
+import SectionTitle from "./SectionTitle.astro";
+import SkillsIcon from "../icons/SkillsIcon.astro";
+import { type Skill } from "../interfaces";
+import SkillsData from "../json/skills.json";
+
+const language = i18next.language;
+const skills: Skill[] = (SkillsData as { [key: string]: Skill[] })[language];
+---
+
+<section id="skills" class="w-full mt-24">
+    <SectionTitle title={t("skills.title")} subtitle={t("skills.subtitle")}>
+        <SkillsIcon slot="icon" />
+    </SectionTitle>
+
+    <div class="w-full mt-16 flex flex-wrap gap-2">
+        {
+            skills.map((category) => (
+                <div class="flex flex-col mr-4 mb-4">
+                    <span class="font-manrope text-black font-medium mb-1 uppercase text-sm xl:text-base">
+                        {category.title}
+                    </span>
+                    <div class="flex flex-wrap gap-2">
+                        {category.skills.map((skill) => (
+                            <span class="font-manrope text-green font-medium text-sm xl:text-xl py-2 px-8 rounded-full border-[1px] border-black hover:border-green hover:bg-green hover:text-beige">
+                                {skill}
+                            </span>
+                        ))}
+                    </div>
+                </div>
+            ))
+        }
+    </div>
+</section>

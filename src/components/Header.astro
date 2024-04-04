@@ -1,0 +1,72 @@
+---
+import i18next, { t } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
+import LinkedinIcon from "../icons/LinkedinIcon.astro";
+import GithubIcon from "../icons/GithubIcon.astro";
+import CvIcon from "../icons/CvIcon.astro";
+import MailIcon from "../icons/MailIcon.astro";
+
+const descriptions = t("header.description").split("\n");
+---
+
+<header
+    id="about"
+    class="w-full flex flex-col xl:flex-row gap-3 mt-5 md:mt-10 justify-center items-center"
+>
+    <div class="w-full xl:w-1/4 flex flex-col justify-start items-center">
+        <img
+            src="src/images/profile.png"
+            alt="Profile image of Aldo Gutiérrez"
+            class="h-60 w-auto xl:w-full xl:h-auto"
+        />
+        <div class="flex gap-4 -mt-8">
+            <a
+                href="https://www.linkedin.com/in/aldo-guti%C3%A9rrez-delgado-ba5a512ba/"
+                target="_blank"
+            >
+                <LinkedinIcon />
+            </a>
+            <a href="https://github.com/AldoGutierrezD" target="_blank">
+                <GithubIcon />
+            </a>
+            <!-- <a href="" target="_blank"> <CvIcon /> </a> -->
+        </div>
+    </div>
+    <div class="w-full xl:w-3/4 pt-6 xl:pt-12 xl:pl-6">
+        <h1
+            class="font-great-warrior text-green text-5xl lg:text-6xl 2xl:text-7xl mb-4"
+        >
+            Aldo Gutiérrez
+        </h1>
+        <h2 class="font-gobold-extra2 text-gold text:2xl md:text-3xl mb-6">
+            {t("header.rol")}
+        </h2>
+        {
+            descriptions.map((desc) => (
+                <p class="font-manrope text-green text-base mb-8">{desc}</p>
+            ))
+        }
+        <button
+            class="flex items-center justify-center gap-2 text-green text-base font-manrope font-bold py-2 px-6 rounded-full border-black border-2 bg-gradient-to-r from-light-green to-light-yellow-200 hover:from-light-yellow-200 hover:to-light-green"
+            onclick="location.href='mailto:aldogd24@gmail.com';"
+        >
+            <MailIcon /> aldogd24@gmail.com</button
+        >
+    </div>
+</header>
+
+<style>
+    #about {
+        animation: fadeIn 1s ease-in both;
+    }
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translate3d(0, -15%, 0);
+        }
+        to {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+</style>

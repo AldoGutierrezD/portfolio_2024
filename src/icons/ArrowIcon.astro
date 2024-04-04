@@ -1,0 +1,44 @@
+---
+const { clase } = Astro.props;
+---
+
+<svg
+    id="Arrow"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 133.31 133.31"
+    class={clase}
+    ><defs
+        ><style>
+            .cls-arrow {
+                fill: none;
+                stroke: #1d1d1b;
+                stroke-miterlimit: 10;
+                stroke-width: 7px;
+            }
+        </style></defs
+    ><g id="Arrow"
+        ><line class="cls-arrow" x1="130.84" y1="2.47" x2="2.47" y2="130.84"
+        ></line><polyline
+            class="cls-arrow"
+            points="43.98 5.72 127.39 5.72 127.39 89.12"></polyline></g
+    ></svg
+>
+
+<style>
+    .arrow-icon {
+        width: 30px;
+        height: 30px;
+    }
+    .arrow-icon-a {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: rotate(0deg);
+        transition: transform 0.5s ease-in-out;
+    }
+    .arrow-icon-a:hover {
+        transform: rotate(45deg);
+    }
+</style>

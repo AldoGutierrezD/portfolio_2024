@@ -1,0 +1,58 @@
+---
+import ArrowIcon from "../icons/ArrowIcon.astro";
+
+const { id, image, title, subtitle, url, skills } = Astro.props;
+---
+
+<article
+    class="w-full h-fit xl:h-auto xl:min-h-[350px] border-2 border-black rounded-2xl p-4 project-card xl:hover:scale-105 transition-all duration-500 hover:bg-beige"
+>
+    <div class="flex flex-col xl:flex-row justify-between h-1/2">
+        <div
+            class="w-full h-52 xl:w-1/2 xl:h-full bg-gradient-to-tl from-light-yellow to-light-green rounded-2xl overflow-hidden"
+        >
+            <img
+                class="w-full h-auto xl:h-full xl:object-cover"
+                src={`../src/images/mockups/${image}.webp`}
+                alt=""
+                loading="lazy"
+            />
+        </div>
+        <div class="w-full xl:w-1/2 p-3 relative">
+            <h4 class="font-manrope text-black font-medium">
+                {title}
+            </h4>
+            <h5 class="font-manrope text-black font-light text-base mb-4">
+                {subtitle}
+            </h5>
+            {
+                url != "#" ? (
+                    <a href={url} target="_blank">
+                        <ArrowIcon clase="arrow-icon-a" />
+                    </a>
+                ) : (
+                    ""
+                )
+            }
+        </div>
+    </div>
+
+    <div class="mt-3 flex flex-wrap gap-2 h-auto">
+        {
+            skills &&
+                skills.map((skill: string) => (
+                    <>
+                        <span class="bg-slate-50 border-[1px] border-black rounded-full py-1 px-6 text-center text-black font-manrope font-light text-xs md:text-sm xl:text-base">
+                            {skill}
+                        </span>
+                    </>
+                ))
+        }
+    </div>
+</article>
+
+<style>
+    .project-card:hover .arrow-icon-a {
+        transform: rotate(90deg);
+    }
+</style>

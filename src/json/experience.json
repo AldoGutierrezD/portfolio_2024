@@ -1,0 +1,50 @@
+{
+    "es": [
+        {
+            "icon": "👨‍🎓",
+            "title": "Universidad Tecnológica de León",
+            "subtitle": "Ingeniería en Entornos Virtuales y Negocios Digitales",
+            "date": "2020 - 2024",
+            "active": false
+        },
+        {
+            "icon": "💻",
+            "title": "Integra Connective",
+            "subtitle": "Desarrollador Web Full Stack",
+            "date": "2022 - presente",
+            "active": true
+        }
+    ],
+    "en": [
+        {
+            "icon": "👨‍🎓",
+            "title": "Universidad Tecnológica de León",
+            "subtitle": "Engineering in Virtual Environments and Digital Business",
+            "date": "2020 - 2024",
+            "active": false
+        },
+        {
+            "icon": "💻",
+            "title": "Integra Connective",
+            "subtitle": "Web Developer Full Stack",
+            "date": "2022 - present",
+            "active": true
+        }
+    ],
+    "fr": [
+        {
+            "icon": "👨‍🎓",
+            "title": "Universidad Tecnológica de León",
+            "subtitle": "Ingénierie dans les Environnements Virtuels et des Affaires Numériques",
+            "date": "2020 - 2024",
+            "active": false
+        },
+        {
+            "icon": "💻",
+            "title": "Integra Connective",
+            "subtitle": "Développeur Web Full Stack",
+            "date": "2022 - présent",
+            "active": true
+        }
+    ]
+}

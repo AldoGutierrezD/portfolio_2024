@@ -1,0 +1,317 @@
+{
+    "es": [
+        {
+            "id": 1,
+            "image": "scrum_system",
+            "title": "Control dinámico de proyectos con Scrum",
+            "subtitle": "Sistema web basado en Scrum para el manejo interno de proyectos",
+            "url": "#",
+            "skills": [
+                "HTML",
+                "CSS",
+                "Bootstrap",
+                "jQuery",
+                "Ajax",
+                "PHP",
+                "MySQL",
+                "Drag&Drop",
+                "DataTables",
+                "Scrum"
+            ]
+        },
+        {
+            "id": 2,
+            "image": "blog",
+            "title": "PuraPaja PuraYerba Blog",
+            "subtitle": "Blog personal para Missael Delgado",
+            "url": "https://purapajapurayerba.netlify.app/",
+            "skills": [
+                "Vue",
+                "Nuxt",
+                "Tailwind",
+                "Netlify",
+                "CMS",
+                "Git/GitHub",
+                "Markdown posts",
+                "Publicación Dinámica",
+                "Cloudfare"
+            ]
+        },
+        {
+            "id": 3,
+            "image": "utl_redesign",
+            "title": "UTL Rediseño",
+            "subtitle": "Propuesta de rediseño para la página oficial de la Universidad Tecnológica de León",
+            "url": "https://utleonmx.netlify.app/",
+            "skills": [
+                "UX/UI",
+                "Diseño Interactivo",
+                "jQuery",
+                "Bootstrap",
+                "Netlify",
+                "GitHub",
+                "Responsivo",
+                "Tendencias 2023",
+                "Figma"
+            ]
+        },
+        {
+            "id": 4,
+            "image": "erp_system",
+            "title": "Sistemas ERP en Integra Connective",
+            "subtitle": "Desarrollo de sistemas ERP en Integra Connective para diferentes empresas",
+            "url": "#",
+            "skills": [
+                "Web Dinámica",
+                "API Rest/SOAP",
+                "PHP Sessions",
+                "MVC",
+                "Reportes Excel",
+                "Genración de PDF",
+                "Gráficas de estadísticas"
+            ]
+        },
+        {
+            "id": 5,
+            "image": "models3d",
+            "title": "Creación y carga de Modelos 3D",
+            "subtitle": "Modelos 3D creados con Blender y cargados con Model Viewer",
+            "url": "https://aldogutierrezd.github.io/models3d/",
+            "skills": [
+                "Blender",
+                "Model Viewer",
+                "Tailwind",
+                "Diseño Interactivo",
+                "Modelado 3D",
+                "Experiencia Inmersiva",
+                "Visualización de producto"
+            ]
+        },
+        {
+            "id": 6,
+            "image": "ps_interface",
+            "title": "PlayStation Home Interfaz",
+            "subtitle": "Interfaz de Instagram pasada a Web",
+            "url": "https://playstationinterface.netlify.app/",
+            "skills": [
+                "UX/UI",
+                "Diseño de Interfaz",
+                "Responsivo",
+                "Vue",
+                "Tailwind",
+                "Videojuegos",
+                "Diseño Moderno"
+            ]
+        }
+    ],
+    "en": [
+        {
+            "id": 1,
+            "image": "scrum_system",
+            "title": "Dynamic project control with Scrum",
+            "subtitle": "Scrum-based web system for internal project management",
+            "url": "#",
+            "skills": [
+                "HTML",
+                "CSS",
+                "Bootstrap",
+                "jQuery",
+                "Ajax",
+                "PHP",
+                "MySQL",
+                "Drag&Drop",
+                "DataTables",
+                "Scrum"
+            ]
+        },
+        {
+            "id": 2,
+            "image": "blog",
+            "title": "PuraPaja PuraYerba Blog",
+            "subtitle": "Personal blog created for Missael Delgado",
+            "url": "https://purapajapurayerba.netlify.app/",
+            "skills": [
+                "Vue",
+                "Nuxt",
+                "Tailwind",
+                "Netlify",
+                "CMS",
+                "Git/GitHub",
+                "Markdown posts",
+                "Dynamic publication",
+                "Cloudfare"
+            ]
+        },
+        {
+            "id": 3,
+            "image": "utl_redesign",
+            "title": "UTL Redesing",
+            "subtitle": "Redising proposal for the official site of Universidad Tecnológica de León",
+            "url": "https://utleonmx.netlify.app/",
+            "skills": [
+                "UX/UI",
+                "Interactive Design",
+                "jQuery",
+                "Bootstrap",
+                "Netlify",
+                "GitHub",
+                "Responsive",
+                "Trends 2023",
+                "Figma"
+            ]
+        },
+        {
+            "id": 4,
+            "image": "erp_system",
+            "title": "ERP Systems in Integra Connective",
+            "subtitle": "ERP systems developed in Integra Connective for different companies",
+            "url": "#",
+            "skills": [
+                "Dynamic Web",
+                "API Rest/SOAP",
+                "PHP Sessions",
+                "MVC",
+                "Excel Reporting",
+                "PDF Generation",
+                "Statistics Graphs"
+            ]
+        },
+        {
+            "id": 5,
+            "image": "models3d",
+            "title": "Creation and Load of 3D Models",
+            "subtitle": "3D models created with Blender and loaded with Model Viewer",
+            "url": "https://aldogutierrezd.github.io/models3d/",
+            "skills": [
+                "Blender",
+                "Model Viewer",
+                "Tailwind",
+                "Interactive Design",
+                "3D Modeling",
+                "Immersive Experience",
+                "Product Visualization"
+            ]
+        },
+        {
+            "id": 6,
+            "image": "ps_interface",
+            "title": "PlayStation Home Interface",
+            "subtitle": "Interface from Instagram passed to code",
+            "url": "https://playstationinterface.netlify.app/",
+            "skills": [
+                "UX/UI",
+                "Interface Design",
+                "Responsive",
+                "Vue",
+                "Tailwind",
+                "Videogames",
+                "Modern Design"
+            ]
+        }
+    ],
+    "fr": [
+        {
+            "id": 1,
+            "image": "scrum_system",
+            "title": "Control dynamique des projets avec Scrum",
+            "subtitle": "Système Web basé sur Scrum pour la gestion interne des projets",
+            "url": "#",
+            "skills": [
+                "HTML",
+                "CSS",
+                "Bootstrap",
+                "jQuery",
+                "Ajax",
+                "PHP",
+                "MySQL",
+                "Drag&Drop",
+                "DataTables",
+                "Scrum"
+            ]
+        },
+        {
+            "id": 2,
+            "image": "blog",
+            "title": "PuraPaja PuraYerba Blog",
+            "subtitle": "Blog personnel pour Missael Delgado",
+            "url": "https://purapajapurayerba.netlify.app/",
+            "skills": [
+                "Vue",
+                "Nuxt",
+                "Tailwind",
+                "Netlify",
+                "CMS",
+                "Git/GitHub",
+                "Markdown posts",
+                "Publication Dynamique",
+                "Cloudfare"
+            ]
+        },
+        {
+            "id": 3,
+            "image": "utl_redesign",
+            "title": "UTL Refonte",
+            "subtitle": "Proposition de refonte pour le site officiel de l'Universidad Tecnológica de León",
+            "url": "https://utleonmx.netlify.app/",
+            "skills": [
+                "UX/UI",
+                "Design Interactif",
+                "jQuery",
+                "Bootstrap",
+                "Netlify",
+                "GitHub",
+                "Responsive",
+                "Tendances 2023",
+                "Figma"
+            ]
+        },
+        {
+            "id": 4,
+            "image": "erp_system",
+            "title": "Systèmes ERP dans Integra Connective",
+            "subtitle": "Développement des systèmes ERP dans Integra Connective pour différentes entreprises",
+            "url": "#",
+            "skills": [
+                "Web Dynamique",
+                "API Rest/SOAP",
+                "PHP Sessions",
+                "MVC",
+                "Rapports Excel",
+                "Génération de PDF",
+                "Graphiques de statistiques"
+            ]
+        },
+        {
+            "id": 5,
+            "image": "models3d",
+            "title": "Création et chargement de Modèles 3D",
+            "subtitle": "Modèles 3D crées avec Blender et chargés avec Model Viewer",
+            "url": "https://aldogutierrezd.github.io/models3d/",
+            "skills": [
+                "Blender",
+                "Model Viewer",
+                "Tailwind",
+                "Design Interactif",
+                "Modélisation 3D",
+                "Expérience Immersif",
+                "Visualisation de produit"
+            ]
+        },
+        {
+            "id": 6,
+            "image": "ps_interface",
+            "title": "PlayStation Home Interface",
+            "subtitle": "Interface de Instagram passée à Web",
+            "url": "https://playstationinterface.netlify.app/",
+            "skills": [
+                "UX/UI",
+                "Design d'Interface",
+                "Responsive",
+                "Vue",
+                "Tailwind",
+                "Jeux vidéo",
+                "Design Moderne"
+            ]
+        }
+    ]
+}

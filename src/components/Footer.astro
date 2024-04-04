@@ -1,0 +1,19 @@
+---
+import i18next, { t } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
+import WorldIcon from "../icons/WorldIcon.astro";
+---
+
+<footer class="w-full mt-24 flex flex-col justify-center items-center">
+    <WorldIcon />
+    <h1
+        class="font-manrope font-base text-black text-center text-lg xl:text-xl"
+    >
+        Aldo Gutiérrez | {t("footer.rol")}
+    </h1>
+    <h6
+        class="font-manrope font-light text-black text-center text-base xl:text-lg"
+    >
+        🖤 {t("footer.made")}
+    </h6>
+</footer>
