@@ -1,0 +1,99 @@
+---
+import i18next, { t } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
+---
+
+<!doctype html>
+<html lang={i18next.language}>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="description"
+            content="Descubre el portafolio de Aldo Gutiérrez, especialista en desarrollo web. Explora mis proyectos y servicios para potenciar tu presencia en línea."
+        />
+        <meta
+            name="keywords"
+            content="desarrollo web, diseño web, programación, developer, développeur, frontend, backend, Aldo Gutiérrez"
+        />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="generator" content={Astro.generator} />
+
+        <title>Aldo Gutiérrez | Web Developer</title>
+    </head>
+    <body class="w-full h-full">
+        <div class="w-full h-full flex flex-col justify-center items-center">
+            <h2
+                class="font-great-warrior text-center text-green"
+                style="font-size: 100px;"
+            >
+                404
+            </h2>
+            <h5
+                class="font-gobold-extra2 text-center"
+                style="font-size: 40px; margin-bottom: 40px;"
+            >
+                NOT FOUND
+            </h5>
+            <div>
+                <a
+                    href="../"
+                    class="font-manrope text-xl underline"
+                    style="text-decoration: underline;">Home</a
+                >
+            </div>
+        </div>
+    </body>
+</html>
+
+<style is:global>
+    :root {
+        --color-beige: #f2ebd8;
+        --color-green: #145e67;
+        --color-light-yellow: #f2ea9a;
+        --color-brown: #b28c6e;
+        --color-gold: #dacb37;
+    }
+    @font-face {
+        font-family: "Manrope";
+        src: url("../../public/fonts/Manrope.ttf") format("ttf");
+    }
+    @font-face {
+        font-family: "Great-Warrior";
+        src: url("../fonts/Great-Warrior.ttf");
+    }
+    @font-face {
+        font-family: "Gobold-Extra2";
+        src: url("../fonts/Gobold-Extra2.otf");
+    }
+    html {
+        width: 100vw;
+        height: 100vh;
+        font-family: system-ui, sans-serif;
+        background: var(--color-beige);
+        background-image: radial-gradient(
+                at 0.9% 72.3%,
+                #e1f2ed 0px,
+                transparent 50%
+            ),
+            radial-gradient(at 6.4% 8.4%, #faf3c3 0px, transparent 50%),
+            radial-gradient(at 99.4% 78.4%, #f7f0c3 0px, transparent 50%),
+            radial-gradient(
+                at 98.3% 10.3%,
+                hsl(162, 40%, 92%) 0px,
+                transparent 50%
+            );
+        scroll-behavior: smooth;
+    }
+    code {
+        font-family:
+            Menlo,
+            Monaco,
+            Lucida Console,
+            Liberation Mono,
+            DejaVu Sans Mono,
+            Bitstream Vera Sans Mono,
+            Courier New,
+            monospace;
+    }
+</style>
