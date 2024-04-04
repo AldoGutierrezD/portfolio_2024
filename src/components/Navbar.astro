@@ -13,7 +13,7 @@ const languages = ["en", "es", "fr"];
     <LogoIconGobold />
 
     <li
-        class="list-none flex flex-wrap justify-center gap-y-1 gap-x-8 text-green font-light"
+        class="list-none flex flex-wrap justify-center gap-y-1 gap-x-4 lg:gap-x-8 text-green font-light"
     >
         <ul>
             <a href="#experience" class="link-animation"
@@ -33,14 +33,14 @@ const languages = ["en", "es", "fr"];
         id="dropdownLanguageButton"
         data-dropdown-toggle="dropdownLanguage"
         data-dropdown-trigger="hover"
-        class="text-black font-medium rounded-lg text-lg xl:px-5 px-2 py-2.5 text-center inline-flex items-center uppercase"
+        class="text-black font-medium rounded-lg text-xs md:text-base xl:px-5 px-2 py-2.5 text-center inline-flex items-center uppercase"
         type="button"
         >{i18next.language}
     </button>
 
     <div id="dropdownLanguage" class="z-10 hidden">
         <ul
-            class="py-0 -mt-3 text-lg text-black"
+            class="py-0 -mt-3 text-xs md:text-base text-black"
             aria-labelledby="dropdownLanguageButton"
         >
             {
@@ -73,7 +73,7 @@ const languages = ["en", "es", "fr"];
 
 <style>
     .link-animation {
-        @apply relative text-sm md:text-base lg:text-xl w-fit block after:block after:content-[''] after:absolute after:h-[1px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center;
+        @apply relative text-xs md:text-base w-fit block after:block after:content-[''] after:absolute after:h-[1px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center;
     }
 </style>
 

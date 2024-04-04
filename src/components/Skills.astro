@@ -24,7 +24,7 @@ const skills: Skill[] = (SkillsData as { [key: string]: Skill[] })[language];
                     </span>
                     <div class="flex flex-wrap gap-2">
                         {category.skills.map((skill) => (
-                            <span class="font-manrope text-green font-medium text-sm xl:text-xl py-2 px-8 rounded-full border-[1px] border-black hover:border-green hover:bg-green hover:text-beige">
+                            <span class="font-manrope text-green font-medium text-xs md:text-base py-2 px-8 rounded-full border-[1px] border-black hover:border-green hover:bg-green hover:text-beige">
                                 {skill}
                             </span>
                         ))}

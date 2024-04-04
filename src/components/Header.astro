@@ -11,7 +11,7 @@ const descriptions = t("header.description").split("\n");
 
 <header
     id="about"
-    class="w-full flex flex-col xl:flex-row gap-3 mt-5 md:mt-10 justify-center items-center"
+    class="w-full flex flex-col xl:flex-row gap-3 mt-4 justify-center items-center"
 >
     <div class="w-full xl:w-1/4 flex flex-col justify-start items-center">
         <img
@@ -34,20 +34,22 @@ const descriptions = t("header.description").split("\n");
     </div>
     <div class="w-full xl:w-3/4 pt-6 xl:pt-12 xl:pl-6">
         <h1
-            class="font-great-warrior text-green text-5xl lg:text-6xl 2xl:text-7xl mb-4"
+            class="font-great-warrior text-green text-4xl lg:text-5xl 2xl:text-6xl mb-4"
         >
             Aldo Gutiérrez
         </h1>
-        <h2 class="font-gobold-extra2 text-gold text:2xl md:text-3xl mb-6">
+        <h2 class="font-gobold-extra2 text-gold text:xl md:text-2xl mb-6">
             {t("header.rol")}
         </h2>
         {
             descriptions.map((desc) => (
-                <p class="font-manrope text-green text-base mb-8">{desc}</p>
+                <p class="font-manrope text-green text-xs md:text-sm mb-5">
+                    {desc}
+                </p>
             ))
         }
         <button
-            class="flex items-center justify-center gap-2 text-green text-base font-manrope font-bold py-2 px-6 rounded-full border-black border-2 bg-gradient-to-r from-light-green to-light-yellow-200 hover:from-light-yellow-200 hover:to-light-green"
+            class="flex items-center justify-center gap-2 text-green text-xs md:text-sm font-manrope font-bold py-2 px-6 rounded-full border-black border-2 bg-gradient-to-r from-light-green to-light-yellow-200 hover:from-light-yellow-200 hover:to-light-green"
             onclick="location.href='mailto:aldogd24@gmail.com';"
         >
             <MailIcon /> aldogd24@gmail.com</button
