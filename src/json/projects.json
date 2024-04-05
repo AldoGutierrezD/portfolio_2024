@@ -2,21 +2,18 @@
     "es": [
         {
             "id": 1,
-            "image": "scrum_system",
-            "title": "Control dinámico de proyectos con Scrum",
-            "subtitle": "Sistema web basado en Scrum para el manejo interno de proyectos",
+            "image": "erp_system",
+            "title": "Sistemas ERP en Integra Connective",
+            "subtitle": "Desarrollo de sistemas ERP en Integra Connective para diferentes empresas",
             "url": "#",
             "skills": [
-                "HTML",
-                "CSS",
-                "Bootstrap",
-                "jQuery",
-                "Ajax",
-                "PHP",
-                "MySQL",
-                "Drag&Drop",
-                "DataTables",
-                "Scrum"
+                "Web Dinámica",
+                "API Rest/SOAP",
+                "PHP Sessions",
+                "MVC",
+                "Reportes Excel",
+                "Genración de PDF",
+                "Gráficas de estadísticas"
             ]
         },
         {
@@ -39,6 +36,25 @@
         },
         {
             "id": 3,
+            "image": "scrum_system",
+            "title": "Control dinámico de proyectos con Scrum",
+            "subtitle": "Sistema web basado en Scrum para el manejo interno de proyectos",
+            "url": "#",
+            "skills": [
+                "HTML",
+                "CSS",
+                "Bootstrap",
+                "jQuery",
+                "Ajax",
+                "PHP",
+                "MySQL",
+                "Drag&Drop",
+                "DataTables",
+                "Scrum"
+            ]
+        },
+        {
+            "id": 4,
             "image": "utl_redesign",
             "title": "UTL Rediseño",
             "subtitle": "Propuesta de rediseño para la página oficial de la Universidad Tecnológica de León",
@@ -53,22 +69,6 @@
                 "Responsivo",
                 "Tendencias 2023",
                 "Figma"
-            ]
-        },
-        {
-            "id": 4,
-            "image": "erp_system",
-            "title": "Sistemas ERP en Integra Connective",
-            "subtitle": "Desarrollo de sistemas ERP en Integra Connective para diferentes empresas",
-            "url": "#",
-            "skills": [
-                "Web Dinámica",
-                "API Rest/SOAP",
-                "PHP Sessions",
-                "MVC",
-                "Reportes Excel",
-                "Genración de PDF",
-                "Gráficas de estadísticas"
             ]
         },
         {
@@ -107,21 +107,18 @@
     "en": [
         {
             "id": 1,
-            "image": "scrum_system",
-            "title": "Dynamic project control with Scrum",
-            "subtitle": "Scrum-based web system for internal project management",
+            "image": "erp_system",
+            "title": "ERP Systems in Integra Connective",
+            "subtitle": "ERP systems developed in Integra Connective for different companies",
             "url": "#",
             "skills": [
-                "HTML",
-                "CSS",
-                "Bootstrap",
-                "jQuery",
-                "Ajax",
-                "PHP",
-                "MySQL",
-                "Drag&Drop",
-                "DataTables",
-                "Scrum"
+                "Dynamic Web",
+                "API Rest/SOAP",
+                "PHP Sessions",
+                "MVC",
+                "Excel Reporting",
+                "PDF Generation",
+                "Statistics Graphs"
             ]
         },
         {
@@ -144,6 +141,25 @@
         },
         {
             "id": 3,
+            "image": "scrum_system",
+            "title": "Dynamic project control with Scrum",
+            "subtitle": "Scrum-based web system for internal project management",
+            "url": "#",
+            "skills": [
+                "HTML",
+                "CSS",
+                "Bootstrap",
+                "jQuery",
+                "Ajax",
+                "PHP",
+                "MySQL",
+                "Drag&Drop",
+                "DataTables",
+                "Scrum"
+            ]
+        },
+        {
+            "id": 4,
             "image": "utl_redesign",
             "title": "UTL Redesing",
             "subtitle": "Redising proposal for the official site of Universidad Tecnológica de León",
@@ -158,22 +174,6 @@
                 "Responsive",
                 "Trends 2023",
                 "Figma"
-            ]
-        },
-        {
-            "id": 4,
-            "image": "erp_system",
-            "title": "ERP Systems in Integra Connective",
-            "subtitle": "ERP systems developed in Integra Connective for different companies",
-            "url": "#",
-            "skills": [
-                "Dynamic Web",
-                "API Rest/SOAP",
-                "PHP Sessions",
-                "MVC",
-                "Excel Reporting",
-                "PDF Generation",
-                "Statistics Graphs"
             ]
         },
         {
@@ -212,21 +212,18 @@
     "fr": [
         {
             "id": 1,
-            "image": "scrum_system",
-            "title": "Control dynamique des projets avec Scrum",
-            "subtitle": "Système Web basé sur Scrum pour la gestion interne des projets",
+            "image": "erp_system",
+            "title": "Systèmes ERP dans Integra Connective",
+            "subtitle": "Développement des systèmes ERP dans Integra Connective pour différentes entreprises",
             "url": "#",
             "skills": [
-                "HTML",
-                "CSS",
-                "Bootstrap",
-                "jQuery",
-                "Ajax",
-                "PHP",
-                "MySQL",
-                "Drag&Drop",
-                "DataTables",
-                "Scrum"
+                "Web Dynamique",
+                "API Rest/SOAP",
+                "PHP Sessions",
+                "MVC",
+                "Rapports Excel",
+                "Génération de PDF",
+                "Graphiques de statistiques"
             ]
         },
         {
@@ -249,6 +246,25 @@
         },
         {
             "id": 3,
+            "image": "scrum_system",
+            "title": "Control dynamique des projets avec Scrum",
+            "subtitle": "Système Web basé sur Scrum pour la gestion interne des projets",
+            "url": "#",
+            "skills": [
+                "HTML",
+                "CSS",
+                "Bootstrap",
+                "jQuery",
+                "Ajax",
+                "PHP",
+                "MySQL",
+                "Drag&Drop",
+                "DataTables",
+                "Scrum"
+            ]
+        },
+        {
+            "id": 4,
             "image": "utl_redesign",
             "title": "UTL Refonte",
             "subtitle": "Proposition de refonte pour le site officiel de l'Universidad Tecnológica de León",
@@ -263,22 +279,6 @@
                 "Responsive",
                 "Tendances 2023",
                 "Figma"
-            ]
-        },
-        {
-            "id": 4,
-            "image": "erp_system",
-            "title": "Systèmes ERP dans Integra Connective",
-            "subtitle": "Développement des systèmes ERP dans Integra Connective pour différentes entreprises",
-            "url": "#",
-            "skills": [
-                "Web Dynamique",
-                "API Rest/SOAP",
-                "PHP Sessions",
-                "MVC",
-                "Rapports Excel",
-                "Génération de PDF",
-                "Graphiques de statistiques"
             ]
         },
         {
