@@ -89,18 +89,18 @@
         },
         {
             "id": 6,
-            "image": "ps_interface",
-            "title": "PlayStation Home Interfaz",
-            "subtitle": "Interfaz de Instagram pasada a Web",
-            "url": "https://playstationinterface.netlify.app/",
+            "image": "banner_fever",
+            "title": "Banner Fever",
+            "subtitle": "Web sobre Banner Fever, exposición de arte en León Gto",
+            "url": "https://bannerfever.netlify.app/",
             "skills": [
-                "UX/UI",
-                "Diseño de Interfaz",
-                "Responsivo",
-                "Vue",
+                "Astro",
                 "Tailwind",
-                "Videojuegos",
-                "Diseño Moderno"
+                "Figma",
+                "UX/UI",
+                "Responsivo",
+                "Ilustración",
+                "Estilo Brutalista"
             ]
         }
     ],
@@ -194,18 +194,18 @@
         },
         {
             "id": 6,
-            "image": "ps_interface",
-            "title": "PlayStation Home Interface",
-            "subtitle": "Interface from Instagram passed to code",
-            "url": "https://playstationinterface.netlify.app/",
+            "image": "banner_fever",
+            "title": "Banner Fever",
+            "subtitle": "Banner Fever Website, art exhibition in León Gto",
+            "url": "https://bannerfever.netlify.app/",
             "skills": [
-                "UX/UI",
-                "Interface Design",
-                "Responsive",
-                "Vue",
+                "Astro",
                 "Tailwind",
-                "Videogames",
-                "Modern Design"
+                "Figma",
+                "UX/UI",
+                "Responsive",
+                "Illustration",
+                "Brutalism Style"
             ]
         }
     ],
@@ -299,18 +299,18 @@
         },
         {
             "id": 6,
-            "image": "ps_interface",
-            "title": "PlayStation Home Interface",
-            "subtitle": "Interface de Instagram passée à Web",
-            "url": "https://playstationinterface.netlify.app/",
+            "image": "banner_fever",
+            "title": "Banner Fever",
+            "subtitle": "Web sur Banner Fever, exposition d'art à León Gto",
+            "url": "https://bannerfever.netlify.app/",
             "skills": [
-                "UX/UI",
-                "Design d'Interface",
-                "Responsive",
-                "Vue",
+                "Astro",
                 "Tailwind",
-                "Jeux vidéo",
-                "Design Moderne"
+                "Figma",
+                "UX/UI",
+                "Responsive",
+                "Illustration",
+                "Style Brutaliste"
             ]
         }
     ]
