@@ -102,6 +102,38 @@
                 "Ilustración",
                 "Estilo Brutalista"
             ]
+        },
+        {
+            "id": 7,
+            "image": "gusto_express_app",
+            "title": "Gusto Express APP",
+            "subtitle": "Diseño de APP de Delivery para Gusto Express",
+            "url": "#",
+            "skills": [
+                "APP móvil",
+                "Figma",
+                "UX/UI",
+                "APP de delivery",
+                "Ilustración",
+                "Diseño Gráfico",
+                "Tendencias 2025"
+            ]
+        },
+        {
+            "id": 8,
+            "image": "aps_app",
+            "title": "APP de consultas veterinarias",
+            "subtitle": "Diseño de interfaz para APP de clínica veterinaria",
+            "url": "#",
+            "skills": [
+                "App móvil",
+                "Figma",
+                "UX/UI",
+                "Gestión veterinaria",
+                "Ilustración",
+                "Diseño Gráfico",
+                "Tendencias 2025"
+            ]
         }
     ],
     "en": [
@@ -207,6 +239,38 @@
                 "Illustration",
                 "Brutalism Style"
             ]
+        },
+        {
+            "id": 7,
+            "image": "gusto_express_app",
+            "title": "Gusto Express APP",
+            "subtitle": "Delivery APP design for Gusto Express",
+            "url": "#",
+            "skills": [
+                "Mobile APP",
+                "Figma",
+                "UX/UI",
+                "Delivery APP",
+                "Illustration",
+                "Graphic Design",
+                "Trends 2025"
+            ]
+        },
+        {
+            "id": 8,
+            "image": "aps_app",
+            "title": "APP of veterinary consultations",
+            "subtitle": "Interface design for veterinary clinic APP",
+            "url": "#",
+            "skills": [
+                "Mobile APP",
+                "Figma",
+                "UX/UI",
+                "Veterinary Management",
+                "Illustration",
+                "Graphic Design",
+                "Trends 2025"
+            ]
         }
     ],
     "fr": [
@@ -311,6 +375,38 @@
                 "Responsive",
                 "Illustration",
                 "Style Brutaliste"
+            ]
+        },
+        {
+            "id": 7,
+            "image": "gusto_express_app",
+            "title": "Gusto Express APP",
+            "subtitle": "Conception de Delivery APP pour Gusto Express",
+            "url": "#",
+            "skills": [
+                "Application Mobile",
+                "Figma",
+                "UX/UI",
+                "Delivery APP",
+                "Illustration",
+                "Conception Graphique",
+                "Tendences 2025"
+            ]
+        },
+        {
+            "id": 8,
+            "image": "aps_app",
+            "title": "APP des consultations vétérinaires",
+            "subtitle": "Conception d'interface pour APP de clinique vétérinaire",
+            "url": "#",
+            "skills": [
+                "Application Mobile",
+                "Figma",
+                "UX/UI",
+                "Gestión veterinaria",
+                "Illustration",
+                "Conception Graphique",
+                "Tendences 2025"
             ]
         }
     ]
