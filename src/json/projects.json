@@ -73,18 +73,18 @@
         },
         {
             "id": 5,
-            "image": "models3d",
-            "title": "Creación y carga de Modelos 3D",
-            "subtitle": "Modelos 3D creados con Blender y cargados con Model Viewer",
-            "url": "https://aldogutierrezd.github.io/models3d/",
+            "image": "track_fit",
+            "title": "Seguimiento Fitness",
+            "subtitle": "Gestiona entrenamientos, nutrición y progreso físico en un solo lugar",
+            "url": "https://track-fit-demo.vercel.app/",
             "skills": [
-                "Blender",
-                "Model Viewer",
+                "React",
+                "PostgreSQL",
                 "Tailwind",
-                "Diseño Interactivo",
-                "Modelado 3D",
-                "Experiencia Inmersiva",
-                "Visualización de producto"
+                "ChartJS",
+                "Supabase",
+                "Vercel",
+                "Neobrutalismo"
             ]
         },
         {
@@ -210,18 +210,18 @@
         },
         {
             "id": 5,
-            "image": "models3d",
-            "title": "Creation and Load of 3D Models",
-            "subtitle": "3D models created with Blender and loaded with Model Viewer",
-            "url": "https://aldogutierrezd.github.io/models3d/",
+            "image": "track_fit",
+            "title": "Fitness tracking",
+            "subtitle": "Manage workouts, nutrition and physical progress in one place",
+            "url": "https://track-fit-demo.vercel.app/",
             "skills": [
-                "Blender",
-                "Model Viewer",
+                "React",
+                "PostgreSQL",
                 "Tailwind",
-                "Interactive Design",
-                "3D Modeling",
-                "Immersive Experience",
-                "Product Visualization"
+                "ChartJS",
+                "Supabase",
+                "Vercel",
+                "Neobrutalism"
             ]
         },
         {
@@ -347,18 +347,18 @@
         },
         {
             "id": 5,
-            "image": "models3d",
-            "title": "Création et chargement de Modèles 3D",
-            "subtitle": "Modèles 3D crées avec Blender et chargés avec Model Viewer",
-            "url": "https://aldogutierrezd.github.io/models3d/",
+            "image": "track_fit",
+            "title": "Fitness tracking",
+            "subtitle": "Gère l’entraînement, la nutrition et le progrès physique au même endroit",
+            "url": "https://track-fit-demo.vercel.app/",
             "skills": [
-                "Blender",
-                "Model Viewer",
+                "React",
+                "PostgreSQL",
                 "Tailwind",
-                "Design Interactif",
-                "Modélisation 3D",
-                "Expérience Immersif",
-                "Visualisation de produit"
+                "ChartJS",
+                "Supabase",
+                "Vercel",
+                "Neobrutalism"
             ]
         },
         {
